@@ -22,7 +22,7 @@ def multiply(x, y):
 
 
 def divide(x, y):
-    """Divide Function"""
+    """Divide Function in this container"""
     if (type(x) or type(y)) not in [int, float]:
         raise TypeError("The inputs must be of type int or floats.")
     if y == 0:
