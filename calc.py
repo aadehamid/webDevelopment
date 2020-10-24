@@ -11,7 +11,7 @@ def subtract(x, y):
     """Subtract Function"""
     if (type(x) or type(y)) not in [int, float]:
         raise TypeError("The inputs must be of type int or floats.")
-    return x - y
+    return (x - y)
 
 
 def multiply(x, y):
